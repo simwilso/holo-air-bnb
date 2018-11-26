@@ -1,0 +1,90 @@
+html, body, .viewport {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 1rem;
+  }
+
+  .responsive-image {
+    max-width: 100%;
+  }
+
+  .cell img {
+  display: block;
+  }
+
+  @media screen and (min-width: 600px) {
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .cell {
+      width: calc(100% / 3);
+    }
+  }
+
+  @media screen and (min-width: 1000px) {
+    .cell {
+      width: calc(100% / 3);
+    }
+  }
+
+/*SECTION FOR NAVBAR */
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sectiontitle {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.standardtext {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subheading {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.subheadingh6 {
+  font-weight: bold;
+  color: #800000;
+}
+
+.borderround {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 16px 32px 16px 32px;
+}
+
+.buttonstyle {
+  border-radius: 5px;
+  padding: 10px 24px;
+  color: white;
+  background-color: #ff8080;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#LOGO {
+    float: left;
+    width: 20%;
+
+}
+#appname {
+    width: 80%;
+    float: right;
+}
