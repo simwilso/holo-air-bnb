@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WattWatchers AIR BNB Example</title>
+    <!-- CSS Files -->
+            <link rel="stylesheet" href="main.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+            <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- JS Files -->
+                        <script
+                            src="https://code.jquery.com/jquery-3.3.1.min.js"
+                            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                            crossorigin="anonymous">
+                        </script>
+                        <script src="main.js"></script>
+</head>
+
+<body>
+
+
+<!-- Nav bar includes two columns: logo + appname -->
+
+<nav>
+  <ul>
+    <li id="LOGO"><img src="./images/airbnb.png" alt="AirBNB Logo" style="width:100px;height:60px;"></li>
+  </ul>
+</nav>
+
+<hr>
+
+<!-- picture grid -->
+
+<div class="container row">
+
+  <div class="grid">
+    <div class="cell">
+      <img src="./images/main_image1.jpg" class="responsive-image">
+    </div>
+    <div class="cell">
+      <img src="./images/col3top1.jpg" class="responsive-image">
+    </div>
+    <div class="cell">
+      <img src="./images/col3bottom1.jpg" class="responsive-image">
+    </div>
+  </div>
+
+</div>
+
+<hr>
+
+<!-- AirBNB property details (2 Column Layout) -->
+
+<div class="col-md-12 row">
+
+<!-- first column for property details and overview -->
+
+<div class="col-md-8">
+<div class="row">
+ <h6 class="subheadingh6">ENTIRE HOUSE</h6>
+</div>
+<div class="row">
+ <h2 class="sectiontitle">Luxurious Beach Cottage</h2>
+</div>
+<div class="row">
+ <h4 class="subheading">Anglesea</h4>
+</div>
+
+<!-- property highlights -->
+<div class="row">
+  <div class="col-md-3">
+    <p class="standardtext">5 Guests</p>
+  </div>
+  <div class="col-md-3">
+    <p class="standardtext">Deck Area</p>
+  </div>
+  <div class="col-md-3">
+    <p class="standardtext">Garage Workshop</p>
+  </div>
+  <div class="col-md-3">
+    <p class="standardtext">Tennis Court</p>
+  </div>
+</div>
+
+<!-- details of property and incremental amenities booking feature with wattwatchers -->
+
+<div class="row">
+  <p><b>Family Setting</b><br> perfectly situated 1km from the beach</p>
+</div>
+<div class="row">
+  <p><b>Great Check-in Experience</b><br>100% of guests gave this a 5 star rating</p>
+</div>
+<div class="row">
+  <p><b>Book only amenities you need</b><br>Book to only use the spa/tennis court/ and or the whole property</p>
+</div>
+</div>
+
+<!-- next column with incremental booking service -->
+
+<div class="col-md-4 borderround">
+  <div class="row">
+    <h2 class="sectiontitle" id="VALUE">$0</h2>
+  </div>
+  <div class="row">
+    <p class="standardtext">Dates</p>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h4 class="subheading">Check-in</h4>
+    </div>
+    <div class="col-md-6">
+      <h4 class="subheading">Check-out</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <p class="standardtext">Services</p>
+  </div>
+    <div class="row">
+      <div class="col-md-6">House</div>
+      <button class="col-md-6 buttonstyle" id="HOUSE">Book</button>
+      <!--span class="popuptext" id="HousePopup">This button will enable power to the house from the WattWatchers.<br>the open source RG software will automate this function</span-->
+    </div>
+    <div class="row">
+      <div class="col-md-6">Hot Tub</div>
+      <button class="col-md-6 buttonstyle" id="HOTTUB">Book</button>
+      <!--span class="popuptext" id="HottubPopup">This button will enable power to the Hot Tub Power from the WattWatchers.<br>the open source RG software will automate this function</span-->
+    </div>
+    <div class="row">
+      <div class="col-md-6">Tennis Court</div>
+      <button class="col-md-6 buttonstyle" id="TENNIS">Book</button>
+      <!--span class="popuptext" id="TennisPopup">This button will enable power to the Tennis Court Lights from the WattWatchers.<br>the open source RG software will automate this function</span-->
+    </div>
+    <div class="row">
+      <div class="col-md-6">Workshop Garage</div>
+      <button class="col-md-6 buttonstyle" id="GARAGE">Book</button>
+      <!--span class="popuptext" id="GaragePopup">This button will enable power to the Garage from the WattWatchers.<br>the open source RG software will automate this function</span-->
+    </div>
+  </div>
+</div>
+</body>
+</html>
