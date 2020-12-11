@@ -1,0 +1,19 @@
+{
+  "name": "holo-air-bnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simwilso/holo-air-bnb.git"
+  },
+  "author": "simon wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simwilso/holo-air-bnb/issues"
+  },
+  "homepage": "https://github.com/simwilso/holo-air-bnb#readme"
+}
